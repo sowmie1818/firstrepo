@@ -37,7 +37,7 @@ public class OfferPageStepDefinition {
 	@SuppressWarnings("deprecation")
 	@Then("^User searched for short name(.+) in offers page$")
 	public void User_searched_for_short_name_in_offers(String ShortName) throws InterruptedException {
-		
+		System.out.println("opffers page changes");
 		switchtoofferpage();
 		 //setupoff.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		offerspageobjects offerspage = setupoff.pagemanager.getOffersPage();
