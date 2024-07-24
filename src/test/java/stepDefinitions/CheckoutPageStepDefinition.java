@@ -43,6 +43,8 @@ public void Verify_user_has_ability_to_enter_promo_code_and_place_the_order()  {
 	Assert.assertTrue(checkoutpage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutpage.VerifyPlaceOrder());
 	System.out.println("practicing git");
+	System.out.println("practice git 2");
+	System.out.println("laod it to eclipseworkspace repo");
 	
 	}
 @Then("^User proceeds to Checkout and validate the (.+) items in checkout page$")
